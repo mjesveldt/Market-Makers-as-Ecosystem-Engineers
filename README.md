@@ -24,11 +24,12 @@ The main results:
 
 After nondimensionalization (Section 2 of the report) the system is
 
-$$
-\frac{d\tilde I}{d\tilde t} = 1 - b\,(1+c\tilde M)\,\tilde I\tilde M - \tilde I,
-\qquad
-\frac{d\tilde M}{d\tilde t} = \varepsilon\,\tilde M\left(R\,\frac{1+c\tilde M}{1+\tilde M}\,\tilde I - 1\right),
-$$
+```math
+\begin{cases}
+\dfrac{d\tilde I}{d\tilde t} = 1 - b\,(1+c\tilde M)\,\tilde I\,\tilde M - \tilde I \\[8pt]
+\dfrac{d\tilde M}{d\tilde t} = \varepsilon\,\tilde M\left(R\,\dfrac{1+c\tilde M}{1+\tilde M}\,\tilde I - 1\right)
+\end{cases}
+```
 
 | Symbol | Meaning |
 |---|---|
