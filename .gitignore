@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kept locally, not published
+main.tex
+refs.bib
+figures/
